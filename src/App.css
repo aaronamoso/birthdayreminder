@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.birthday-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 1px solid #e7c9c9;
+  padding: 10px 0;
+}
+
+.birthday-item img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+}
+
+.clear-button {
+  padding: 20px 60px;
+  background: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background: #ff4500;
 }
